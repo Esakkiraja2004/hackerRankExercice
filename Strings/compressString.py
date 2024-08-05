@@ -11,4 +11,5 @@ while i < n:
             break
     arr.append((count,int(s[i])))
     i+=count
-print(arr)
+for i in arr:
+    print(f"({i[0]},{i[1]})")
